@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bests of the Bests - Complete Top 100 Sports Dominance</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+        }
+        .athlete-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        .athlete-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        .score-badge {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #1a1a2e;
+            font-weight: 700;
+        }
+        .methodology-section {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .sport-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body class="text-white">
+    <!-- Header -->
+    <div class="container mx-auto px-4 py-8">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
+                The Bests of the Bests
+            </h1>
+            <h2 class="text-xl md:text-2xl font-light mb-6 text-gray-300">
+                Complete Top 100 Sports Dominance Rankings
+            </h2>
+            <p class="text-lg text-gray-400 mb-8 max-w-4xl mx-auto">
+                Spor tarihinin en dominant 100 sporcusunun bilimsel metodoloji ile belirlenen kapsamlı sıralaması
+            </p>
+            <div class="text-sm text-gray-500">
+                <p><i class="fas fa-user mr-2"></i>Hazırlayan: <span class="text-yellow-400 font-semibold">Ümit Emre Erdoğan</span></p>
+                <p><i class="fas fa-calendar mr-2"></i>2025 - Spor Araştırmaları</p>
+            </div>
+        </div>
+
+        <!-- Methodology Section -->
+        <div class="methodology-section rounded-2xl p-8 mb-12">
+            <h3 class="text-2xl font-bold mb-6 text-center">
+                <i class="fas fa-calculator mr-3"></i>Bilimsel Hesaplama Metodolojisi
+            </h3>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-yellow-400">Puanlama Formülü (100 Puan Üzerinden)</h4>
+                    <div class="bg-gray-800 rounded-lg p-4 font-mono text-sm">
+                        <div class="text-green-400">TOPLAM DOMINANS PUANI =</div>
+                        <div class="ml-4 mt-2">İstatistiksel Gap (25p) +</div>
+                        <div class="ml-4">Yenilmezlik Serileri (25p) +</div>
+                        <div class="ml-4">Rekor Sahipliği (20p) +</div>
+                        <div class="ml-4">Madalya/Başarı Farkı (15p) +</div>
+                        <div class="ml-4">Dominans Süresi (15p)</div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-yellow-400">Kriter Detayları</h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                            <span><strong>İstatistiksel Gap:</strong> Standart sapma cinsinden rakiplerden fark</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                            <span><strong>Yenilmezlik Serileri:</strong> Ardışık galibiyet/başarı sayıları</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                            <span><strong>Rekor Sahipliği:</strong> Tarihin en iyi performanslarında pay</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-yellow-400 rounded-full mr-3"></span>
+                            <span><strong>Madalya/Başarı Farkı:</strong> En yakın rakibinden kaç kat fazla</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                            <span><strong>Dominans Süresi:</strong> Zirvede kalma süresinin uzunluğu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Athletes List -->
+        <div class="space-y-8">
+            <!-- Top 10 - Super Elite (90-100 points) -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold mb-6 text-center text-yellow-400">
+                    <i class="fas fa-crown mr-3"></i>Süper Elit (90-100 Puan)
+                </h3>
+                <div class="grid gap-6">
+                    
+                    <!-- 1. Esther Vergeer -->
+                    <div class="athlete-card rounded-2xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-4">
+                                    <i class="fas fa-wheelchair"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">1. Esther Vergeer</h4>
+                                    <p class="text-gray-300">Tekerlekli Sandalye Tenisi</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-4 py-2 rounded-full text-xl font-bold">96/100</div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="mb-2"><strong>Ülke:</strong> Hollanda</p>
+                                <p class="mb-2"><strong>Aktif Dönem:</strong> 1990-2013</p>
+                                <p class="mb-2"><strong>Büyük Başarılar:</strong> 470 ardışık maç galibiyeti, 4 Paralimpik altın</p>
+                            </div>
+                            <div>
+                                <p class="mb-2"><strong>Dominans Nedeni:</strong> 10 yıl boyunca hiç yenilmedi</p>
+                                <p class="mb-2"><strong>Rekorlar:</strong> 120 ardışık turnuva şampiyonluğu</p>
+                                <p class="mb-2"><strong>Özel Not:</strong> 95 maçı 6-0, 6-0 skorla kazandı</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Don Bradman -->
+                    <div class="athlete-card rounded-2xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-4">
+                                    <i class="fas fa-baseball-ball"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">2. Don Bradman</h4>
+                                    <p class="text-gray-300">Kriket</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-4 py-2 rounded-full text-xl font-bold">95/100</div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="mb-2"><strong>Ülke:</strong> Avustralya</p>
+                                <p class="mb-2"><strong>Aktif Dönem:</strong> 1928-1948</p>
+                                <p class="mb-2"><strong>Büyük Başarılar:</strong> 99.94 Test batting ortalaması</p>
+                            </div>
+                            <div>
+                                <p class="mb-2"><strong>Dominans Nedeni:</strong> 6.17 standart sapma üzerinde performans</p>
+                                <p class="mb-2"><strong>Rekorlar:</strong> 29 Test century, 38.86 puan fark rakiplerden</p>
+                                <p class="mb-2"><strong>Özel Not:</strong> Spor tarihinin en büyük istatistiksel anomalisi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Jahangir Khan -->
+                    <div class="athlete-card rounded-2xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-4">
+                                    <i class="fas fa-table-tennis"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">3. Jahangir Khan</h4>
+                                    <p class="text-gray-300">Squash</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-4 py-2 rounded-full text-xl font-bold">94/100</div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="mb-2"><strong>Ülke:</strong> Pakistan</p>
+                                <p class="mb-2"><strong>Aktif Dönem:</strong> 1976-1993</p>
+                                <p class="mb-2"><strong>Büyük Başarılar:</strong> 555 ardışık maç galibiyeti</p>
+                            </div>
+                            <div>
+                                <p class="mb-2"><strong>Dominans Nedeni:</strong> 5 yıl 8 ay boyunca yenilmezlik</p>
+                                <p class="mb-2"><strong>Rekorlar:</strong> 6 Dünya Şampiyonluğu, 10 British Open</p>
+                                <p class="mb-2"><strong>Özel Not:</strong> Profesyonel sporda en uzun galibiyet serisi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Heather McKay -->
+                    <div class="athlete-card rounded-2xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-4">
+                                    <i class="fas fa-table-tennis"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">4. Heather McKay</h4>
+                                    <p class="text-gray-300">Squash (Kadın)</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-4 py-2 rounded-full text-xl font-bold">93/100</div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="mb-2"><strong>Ülke:</strong> Avustralya</p>
+                                <p class="mb-2"><strong>Aktif Dönem:</strong> 1960-1981</p>
+                                <p class="mb-2"><strong>Büyük Başarılar:</strong> Sadece 2 maç kaybetti (1960, 1962)</p>
+                            </div>
+                            <div>
+                                <p class="mb-2"><strong>Dominans Nedeni:</strong> 19 yıl boyunca neredeyse yenilmez</p>
+                                <p class="mb-2"><strong>Rekorlar:</strong> 16 ardışık British Open şampiyonluğu</p>
+                                <p class="mb-2"><strong>Özel Not:</strong> 1962'den sonra hiç yenilmedi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Janja Garnbret -->
+                    <div class="athlete-card rounded-2xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-4">
+                                    <i class="fas fa-mountain"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">5. Janja Garnbret</h4>
+                                    <p class="text-gray-300">Sportif Tırmanış</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-4 py-2 rounded-full text-xl font-bold">92/100</div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="mb-2"><strong>Ülke:</strong> Slovenya</p>
+                                <p class="mb-2"><strong>Aktif Dönem:</strong> 2016-Devam</p>
+                                <p class="mb-2"><strong>Büyük Başarılar:</strong> 2 Olimpik altın, 40 IFSC Dünya Kupası</p>
+                            </div>
+                            <div>
+                                <p class="mb-2"><strong>Dominans Nedeni:</strong> %90.7 başarı oranı (rakip %76.5)</p>
+                                <p class="mb-2"><strong>Rekorlar:</strong> 9 genel şampiyonluk, 6 Dünya Şampiyonluğu</p>
+                                <p class="mb-2"><strong>Özel Not:</strong> Modern sporun en dominanti</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Michael Phelps -->
+                    <div class="athlete-card rounded-2xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-4">
+                                    <i class="fas fa-swimmer"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">6. Michael Phelps</h4>
+                                    <p class="text-gray-300">Yüzme</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-4 py-2 rounded-full text-xl font-bold">91/100</div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="mb-2"><strong>Ülke:</strong> ABD</p>
+                                <p class="mb-2"><strong>Aktif Dönem:</strong> 2000-2016</p>
+                                <p class="mb-2"><strong>Büyük Başarılar:</strong> 28 Olimpik madalya (23 altın)</p>
+                            </div>
+                            <div>
+                                <p class="mb-2"><strong>Dominans Nedeni:</strong> En yakın rakibinin 2 katından fazla altın</p>
+                                <p class="mb-2"><strong>Rekorlar:</strong> 39 dünya rekoru, 8 altın tek olimpiyatta</p>
+                                <p class="mb-2"><strong>Özel Not:</strong> Olimpik madalyada mutlak lider</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7. Aleksandr Karelin -->
+                    <div class="athlete-card rounded-2xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-4">
+                                    <i class="fas fa-fist-raised"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">7. Aleksandr Karelin</h4>
+                                    <p class="text-gray-300">Güreş</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-4 py-2 rounded-full text-xl font-bold">90/100</div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="mb-2"><strong>Ülke:</strong> Rusya</p>
+                                <p class="mb-2"><strong>Aktif Dönem:</strong> 1987-2000</p>
+                                <p class="mb-2"><strong>Büyük Başarılar:</strong> 887 galibiyet, sadece 2 mağlubiyet</p>
+                            </div>
+                            <div>
+                                <p class="mb-2"><strong>Dominans Nedeni:</strong> 13 yıl uluslararası yenilmezlik</p>
+                                <p class="mb-2"><strong>Rekorlar:</strong> 3 Olimpik altın, 9 Dünya şampiyonluğu</p>
+                                <p class="mb-2"><strong>Özel Not:</strong> 6 yıl kimse puan alamadı</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Top 11-30 - Elite Level (70-89 points) -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold mb-6 text-center text-blue-400">
+                    <i class="fas fa-medal mr-3"></i>Elit Seviye (70-89 Puan)
+                </h3>
+                <div class="grid gap-4">
+                    
+                    <!-- 8. Ryan Crouser -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">8. Ryan Crouser - Gülle Atma</h4>
+                                    <p class="text-xs text-gray-400">ABD | 2013-Devam | 23.56m dünya rekoru</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">89/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> Tarihi atışların %33.65'i ona ait, 3 ardışık Olimpik altın</p>
+                    </div>
+
+                    <!-- 9. Edwin Moses -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-running"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">9. Edwin Moses - 400m Engelli</h4>
+                                    <p class="text-xs text-gray-400">ABD | 1976-1987 | 122 ardışık galibiyet</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">88/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 9 yıl 9 ay 9 gün yenilmezlik, 107 ardışık final galibiyeti</p>
+                    </div>
+
+                    <!-- 10. Jackie Joyner-Kersee -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-medal"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">10. Jackie Joyner-Kersee - Heptathlon</h4>
+                                    <p class="text-xs text-gray-400">ABD | 1984-1998 | 7.291 puan rekoru</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">87/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 37 yıldır kırılmayan rekor, tüm zamanların ilk 6 performansı ona ait</p>
+                    </div>
+
+                    <!-- 11. Wayne Gretzky -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-hockey-puck"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">11. Wayne Gretzky - Buz Hokeyi</h4>
+                                    <p class="text-xs text-gray-400">Kanada | 1979-1999 | 61 NHL rekoru</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">86/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> "The Great One", 56 rekoru hâlâ kırılmamış, 2.857 kariyer puanı</p>
+                    </div>
+
+                    <!-- 12. Steffi Graf -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-table-tennis"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">12. Steffi Graf - Tenis</h4>
+                                    <p class="text-xs text-gray-400">Almanya | 1982-1999 | Golden Slam 1988</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">85/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 22 Grand Slam, 377 hafta 1 numara, %89.71 Grand Slam final galibiyet oranı</p>
+                    </div>
+
+                    <!-- 13. Armand Duplantis -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">13. Armand Duplantis - Sırıkla Atlama</h4>
+                                    <p class="text-xs text-gray-400">İsveç | 2015-Devam | 6.28m dünya rekoru</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">84/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 12 kez dünya rekoru kırdı, 6m üzerinde 100+ atlama</p>
+                    </div>
+
+                    <!-- 14. Kelly Slater -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-water"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">14. Kelly Slater - Sörf</h4>
+                                    <p class="text-xs text-gray-400">ABD | 1990-2023 | 11 dünya şampiyonluğu</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">83/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> En yakinin 3.7 katı şampiyonluk, 5 ardışık şampiyonluk (1994-1998)</p>
+                    </div>
+
+                    <!-- 15. Wilt Chamberlain -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-basketball-ball"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">15. Wilt Chamberlain - Basketbol</h4>
+                                    <p class="text-xs text-gray-400">ABD | 1958-1973 | 100 sayı tek maçta</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">82/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 75+ NBA rekoru, 50.4 sayı ortalaması (1961-62)</p>
+                    </div>
+
+                    <!-- 16. Usain Bolt -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">16. Usain Bolt - Sprint</h4>
+                                    <p class="text-xs text-gray-400">Jamaika | 2004-2017 | 9.58s (100m)</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">81/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 3 dünya rekoru sahibi, 8 Olimpik altın, üçlü altın 3 kez</p>
+                    </div>
+
+                    <!-- 17. Annika Sorenstam -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-golf-ball"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">17. Annika Sorenstam - Golf</h4>
+                                    <p class="text-xs text-gray-400">İsveç | 1992-2008 | 72 LPGA galibiyeti</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">80/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 10 Major şampiyonluğu, %17.5 Major kazanma oranı</p>
+                    </div>
+
+                    <!-- 18. Faith Kipyegon -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-running"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">18. Faith Kipyegon - Orta Mesafe</h4>
+                                    <p class="text-xs text-gray-400">Kenya | 2011-Devam | 3:48.68 (1500m)</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">79/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 3 dünya rekoru sahibi (1500m, Mil, 5000m), 3 Olimpik altın</p>
+                    </div>
+
+                    <!-- 19. Karsten Warholm -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-running"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">19. Karsten Warholm - 400m Engelli</h4>
+                                    <p class="text-xs text-gray-400">Norveç | 2016-Devam | 45.94s dünya rekoru</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">78/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 29 yıllık rekoru kırdı, 46 saniye altına inen ilk sporcu</p>
+                    </div>
+
+                    <!-- 20. Sydney McLaughlin-Levrone -->
+                    <div class="athlete-card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="sport-icon mr-3 w-8 h-8 text-sm">
+                                    <i class="fas fa-running"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold">20. Sydney McLaughlin-Levrone - 400m Engelli</h4>
+                                    <p class="text-xs text-gray-400">ABD | 2017-Devam | 50.65s dünya rekoru</p>
+                                </div>
+                            </div>
+                            <div class="score-badge px-3 py-1 rounded-full text-sm font-bold">77/100</div>
+                        </div>
+                        <p class="text-xs"><strong>Dominans:</strong> 5 kez dünya rekoru kırdı, 2 Olimpik altın</p>
+                    </div>
+
+                    <!-- 21-30 Compact List -->
+                    <div class="grid md:grid-cols-2 gap-3">
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">21. Eliud Kipchoge - Maraton</h5>
+                                    <p class="text-xs text-gray-400">Kenya | 2:01:09 dünya rekoru</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">76/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">22. Kevin Mayer - Decathlon</h5>
+                                    <p class="text-xs text-gray-400">Fransa | 9.126 puan rekoru</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">75/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">23. Serena Williams - Tenis</h5>
+                                    <p class="text-xs text-gray-400">ABD | 23 Grand Slam</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">74/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">24. Tiger Woods - Golf</h5>
+                                    <p class="text-xs text-gray-400">ABD | 15 Major şampiyonluğu</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">73/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">25. Muhammad Ali - Boks</h5>
+                                    <p class="text-xs text-gray-400">ABD | 3x ağır sıklet şampiyonu</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">72/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">26. Floyd Mayweather - Boks</h5>
+                                    <p class="text-xs text-gray-400">ABD | 50-0 rekoru</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">71/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">27. Michael Jordan - Basketbol</h5>
+                                    <p class="text-xs text-gray-400">ABD | 6 NBA şampiyonluğu</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">70/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">28. Sugar Ray Robinson - Boks</h5>
+                                    <p class="text-xs text-gray-400">ABD | 128-1-2 rekoru zirvede</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">70/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">29. Babe Ruth - Beyzbol</h5>
+                                    <p class="text-xs text-gray-400">ABD | 714 home run</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">69/100</span>
+                            </div>
+                        </div>
+                        <div class="athlete-card rounded-lg p-3">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h5 class="font-bold text-sm">30. Tom Brady - Amerikan Futbolu</h5>
+                                    <p class="text-xs text-gray-400">ABD | 7 Super Bowl</p>
+                                </div>
+                                <span class="score-badge px-2 py-1 rounded text-xs">68/100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Top 31-60 - Legendary Level (50-67 points) -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold mb-4 text-center text-purple-400">
+                    <i class="fas fa-star mr-2"></i>Efsane Seviye (50-67 Puan)
+                </h3>
+                <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-3">
+                    
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">31. Lionel Messi</h5>
+                            <p class="text-xs text-gray-400 mb-2">Futbol | 8 Ballon d'Or</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">67/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">32. Pelé</h5>
+                            <p class="text-xs text-gray-400 mb-2">Futbol | 3 Dünya Kupası</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">66/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">33. Cristiano Ronaldo</h5>
+                            <p class="text-xs text-gray-400 mb-2">Futbol | 850+ gol</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">65/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">34. LeBron James</h5>
+                            <p class="text-xs text-gray-400 mb-2">Basketbol | NBA'in en skoreri</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">64/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">35. Novak Djokovic</h5>
+                            <p class="text-xs text-gray-400 mb-2">Tenis | 24 Grand Slam</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">63/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">36. Roger Federer</h5>
+                            <p class="text-xs text-gray-400 mb-2">Tenis | 20 Grand Slam</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">62/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">37. Rafael Nadal</h5>
+                            <p class="text-xs text-gray-400 mb-2">Tenis | 22 Grand Slam</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">61/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">38. Lewis Hamilton</h5>
+                            <p class="text-xs text-gray-400 mb-2">F1 | 105 galibiyet</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">60/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">39. Michael Schumacher</h5>
+                            <p class="text-xs text-gray-400 mb-2">F1 | 7 şampiyonluk</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">59/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">40. Ayrton Senna</h5>
+                            <p class="text-xs text-gray-400 mb-2">F1 | Efsanevi sürüş</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">58/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">41. Valentino Rossi</h5>
+                            <p class="text-xs text-gray-400 mb-2">MotoGP | 9 şampiyonluk</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">57/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">42. Marc Márquez</h5>
+                            <p class="text-xs text-gray-400 mb-2">MotoGP | 8 şampiyonluk</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">56/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">43. Katie Ledecky</h5>
+                            <p class="text-xs text-gray-400 mb-2">Yüzme | 14 olimpik madalya</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">55/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">44. Mark Spitz</h5>
+                            <p class="text-xs text-gray-400 mb-2">Yüzme | 7 altın 1972</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">54/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">45. Carl Lewis</h5>
+                            <p class="text-xs text-gray-400 mb-2">Atletizm | 9 olimpik altın</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">53/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">46. Jesse Owens</h5>
+                            <p class="text-xs text-gray-400 mb-2">Atletizm | 1936 Berlin</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">52/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">47. Florence Griffith-Joyner</h5>
+                            <p class="text-xs text-gray-400 mb-2">Sprint | 10.49s rekoru</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">51/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">48. Simone Biles</h5>
+                            <p class="text-xs text-gray-400 mb-2">Jimnastik | 25 Dünya madalyası</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">49. Nadia Comaneci</h5>
+                            <p class="text-xs text-gray-400 mb-2">Jimnastik | İlk mükemmel 10</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">50. Kohei Uchimura</h5>
+                            <p class="text-xs text-gray-400 mb-2">Jimnastik | 19 dünya madalyası</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">51. Ma Long</h5>
+                            <p class="text-xs text-gray-400 mb-2">Masa Tenisi | GOAT</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">52. Lin Dan</h5>
+                            <p class="text-xs text-gary-400 mb-2">Badminton | 2 olimpik altın</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">53. Karch Kiraly</h5>
+                            <p class="text-xs text-gray-400 mb-2">Voleybol | 3 olimpik altın</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">54. Naim Süleymanoğlu</h5>
+                            <p class="text-xs text-gray-400 mb-2">Halter | 3 olimpik altın</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">55. Pyrros Dimas</h5>
+                            <p class="text-xs text-gray-400 mb-2">Halter | 3 olimpik altın</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">56. Babe Didrikson Zaharias</h5>
+                            <p class="text-xs text-gray-400 mb-2">Çoklu Spor | Multi-sport</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">57. Jim Brown</h5>
+                            <p class="text-xs text-gray-400 mb-2">Amerikan Futbolu | RB</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">58. Jerry Rice</h5>
+                            <p class="text-xs text-gray-400 mb-2">Amerikan Futbolu | WR</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">59. Joe Montana</h5>
+                            <p class="text-xs text-gray-400 mb-2">Amerikan Futbolu | QB</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                    <div class="athlete-card rounded-lg p-3">
+                        <div class="text-center">
+                            <h5 class="font-bold text-sm mb-1">60. Sachin Tendulkar</h5>
+                            <p class="text-xs text-gray-400 mb-2">Kriket | 100 century</p>
+                            <span class="score-badge px-2 py-1 rounded text-xs">50/100</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Top 61-100 - Great Level (30-49 points) -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold mb-4 text-center text-green-400">
+                    <i class="fas fa-trophy mr-2"></i>Büyük İsimler (30-49 Puan)
+                </h3>
+                <div class="grid md:grid-cols-4 lg:grid-cols-5 gap-2">
+                    
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">61. Viv Richards</h6>
+                        <p class="text-xs text-gray-400">Kriket</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">49</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">62. Sonja Henie</h6>
+                        <p class="text-xs text-gray-400">Artistik Patinaj</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">48</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">63. Yuzuru Hanyu</h6>
+                        <p class="text-xs text-gray-400">Artistik Patinaj</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">47</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">64. Emil Zátopek</h6>
+                        <p class="text-xs text-gray-400">Mesafe Koşusu</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">46</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">65. Hicham El Guerrouj</h6>
+                        <p class="text-xs text-gray-400">Orta Mesafe</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">45</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">66. Haile Gebrselassie</h6>
+                        <p class="text-xs text-gray-400">Uzun Mesafe</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">44</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">67. Paula Radcliffe</h6>
+                        <p class="text-xs text-gray-400">Maraton</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">43</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">68. Kilian Jornet</h6>
+                        <p class="text-xs text-gray-400">Trail Running</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">42</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">69. Scott Jurek</h6>
+                        <p class="text-xs text-gray-400">Ultra Maraton</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">41</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">70. Maurice Richard</h6>
+                        <p class="text-xs text-gray-400">Buz Hokeyi</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">40</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">71. Gordie Howe</h6>
+                        <p class="text-xs text-gray-400">Buz Hokeyi</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">40</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">72. Jack Nicklaus</h6>
+                        <p class="text-xs text-gray-400">Golf</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">39</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">73. Arnold Palmer</h6>
+                        <p class="text-xs text-gray-400">Golf</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">38</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">74. Gary Player</h6>
+                        <p class="text-xs text-gray-400">Golf</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">37</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">75. Gianmarco Tamberi</h6>
+                        <p class="text-xs text-gray-400">Yüksek Atlama</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">36</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">76. Nastia Liukin</h6>
+                        <p class="text-xs text-gray-400">Jimnastik</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">35</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">77. Adam Ondra</h6>
+                        <p class="text-xs text-gray-400">Tırmanış</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">34</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">78. Alex Honnold</h6>
+                        <p class="text-xs text-gray-400">Serbest Tırmanış</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">33</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">79. Mikaela Shiffrin</h6>
+                        <p class="text-xs text-gray-400">Kayak</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">32</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">80. Björn Dæhlie</h6>
+                        <p class="text-xs text-gray-400">Kayak</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">32</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">81. Ingemar Stenmark</h6>
+                        <p class="text-xs text-gray-400">Alp Kayağı</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">31</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">82. Jonah Lomu</h6>
+                        <p class="text-xs text-gray-400">Rugby</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">31</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">83. Richie McCaw</h6>
+                        <p class="text-xs text-gray-400">Rugby</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">31</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">84. Dan Carter</h6>
+                        <p class="text-xs text-gray-400">Rugby</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">85. Diego Maradona</h6>
+                        <p class="text-xs text-gray-400">Futbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">86. Giacomo Agostini</h6>
+                        <p class="text-xs text-gray-400">MotoGP</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">87. Mick Doohan</h6>
+                        <p class="text-xs text-gray-400">MotoGP</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">88. Casey Stoner</h6>
+                        <p class="text-xs text-gray-400">MotoGP</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">89. Cy Young</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">90. Lou Gehrig</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">91. Hank Aaron</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">92. Willie Mays</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">93. Roberto Clemente</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">94. Ted Williams</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">95. Sandy Koufax</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">96. Eddy Merckx</h6>
+                        <p class="text-xs text-gray-400">Bisiklet</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">97. Joe DiMaggio</h6>
+                        <p class="text-xs text-gray-400">Beyzbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">98. Oscar Schmidt</h6>
+                        <p class="text-xs text-gray-400">Basketbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">99. Hakan Şükür</h6>
+                        <p class="text-xs text-gray-400">Futbol</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                    <div class="athlete-card rounded p-2 text-center">
+                        <h6 class="text-xs font-bold mb-1">100. Mete Gazoz</h6>
+                        <p class="text-xs text-gray-400">Okçuluk</p>
+                        <span class="score-badge px-1 py-0.5 rounded text-xs">30</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Summary Stats -->
+        <div class="methodology-section rounded-2xl p-8 mb-8">
+            <h3 class="text-2xl font-bold mb-6 text-center">
+                <i class="fas fa-chart-bar mr-3"></i>İstatistiksel Özet
+            </h3>
+            
+            <div class="grid md:grid-cols-4 gap-6 text-center">
+                <div class="bg-gray-800 rounded-lg p-4">
+                    <div class="text-3xl font-bold text-yellow-400 mb-2">100</div>
+                    <div class="text-sm text-gray-300">Toplam Sporcu</div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4">
+                    <div class="text-3xl font-bold text-blue-400 mb-2">60+</div>
+                    <div class="text-sm text-gray-300">Spor Disiplini</div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4">
+                    <div class="text-3xl font-bold text-green-400 mb-2">25</div>
+                    <div class="text-sm text-gray-300">Farklı Ülke</div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4">
+                    <div class="text-3xl font-bold text-purple-400 mb-2">96</div>
+                    <div class="text-sm text-gray-300">En Yüksek Puan</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="text-center py-8 border-t border-gray-700">
+            <p class="text-gray-400 mb-2">
+                <i class="fas fa-copyright mr-2"></i>2025 - Ümit Emre Erdoğan
+            </p>
+            <p class="text-gray-500 text-sm">
+                Bilimsel metodoloji ile belirlenen spor dominans sıralaması
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDr%2F%2BpELioJujx1Tv4gBnXoxW3TGd%2Bq6kguwUc4fx3CPsKzsBIgf1v86uVL2qJxfiFPM8%2BxJX3e1p5%2FDLqjTx4kFKoH5vUJFm3cljFrYDZNcjoQiXPNci%2FTW99QJD3VIxDUFHPmrqWTQQ%2F5C2gGDTzO0zp13z2UeBv0z%2Bw52mAsmKOvs3PA2XmRy3ZIWBOsgtaffmHVeWgHv8b8AkBF%2Fne2vUyjSM%2Bx7xrFi1AuIJKUkQVMrXtw1gpl8miKPAr9uLpxEWKNDPwwJhJSNcNcvRDiHT2FmAYj09tOzosBmOmH0BbO8xAFMe1FFmuFS%2FIFzBe1gJJJFOa01iu1s4GC4W6tzlhKGLZJGjKRreF9AeCF4ZS7o0LBg8s31FvgtA0Y9HT6hu8dYI81msyrciZbTm%2BKbgPg0dvTGwIpDtuLmInXXpf8V04TCEVwnJ9HC8ZfnxQFLXjj%2BxK1eQSXgBIdxPrXbPyUcdKW3YyXJjM6hKnKds2Zw%2Bv0s6K1a8oo1Vi%2FjirMCcNDiFSFiXDbE8AQeWBTQ%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDr/+pELioJujx1Tv4gBnXoxW3TGd+q6kguwUc4fx3CPsKzsBIgf1v86uVL2qJxfiFPM8+xJX3e1p5/DLqjTx4kFKoH5vUJFm3cljFrYDZNcjoQiXPNci/TW99QJD3VIxDUFHPmrqWTQQ/5C2gGDTzO0zp13z2UeBv0z+w52mAsmKOvs3PA2XmRy3ZIWBOsgtaffmHVeWgHv8b8AkBF/ne2vUyjSM+x7xrFi1AuIJKUkQVMrXtw1gpl8miKPAr9uLpxEWKNDPwwJhJSNcNcvRDiHT2FmAYj09tOzosBmOmH0BbO8xAFMe1FFmuFS/IFzBe1gJJJFOa01iu1s4GC4W6tzlhKGLZJGjKRreF9AeCF4ZS7o0LBg8s31FvgtA0Y9HT6hu8dYI81msyrciZbTm+KbgPg0dvTGwIpDtuLmInXXpf8V04TCEVwnJ9HC8ZfnxQFLXjj+xK1eQSXgBIdxPrXbPyUcdKW3YyXJjM6hKnKds2Zw+v0s6K1a8oo1Vi/jirMCcNDiFSFiXDbE8AQeWBTQ=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
